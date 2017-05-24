@@ -1,0 +1,29 @@
+hash: 2fecb615f172a90e40791be7becab0aca199bead0871009966decacf27567659
+updated: 2017-05-21T19:38:20.945598397-07:00
+imports:
+- name: github.com/AndreasBriese/bbloom
+  version: 0320de81a58b973b5187098f4815608711c70f3b
+- name: github.com/bkaradzic/go-lz4
+  version: 7224d8d8f27ef618c0a95f1ae69dbb0488abc33a
+- name: github.com/dgraph-io/badger
+  version: 22225f815f66bab8c951deb02b471aab8e1d3195
+  subpackages:
+  - badger
+  - skl
+  - table
+  - "y"
+- name: github.com/jackdanger/collectlinks
+  version: 24c4ee2870ba625f927b59de8c421c3f0be82b90
+- name: github.com/pkg/errors
+  version: c605e284fe17294bda444b34710735b29d1a9d90
+- name: github.com/temoto/robotstxt-go
+  version: 5f8637625d1077e19c85b5ae96c2f0f5bb476177
+- name: golang.org/x/net
+  version: 513929065c19401a1c7b76ecd942f9f86a0c061b
+  subpackages:
+  - context
+  - html
+  - html/atom
+  - internal/timeseries
+  - trace
+testImports: []

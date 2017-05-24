@@ -1,0 +1,7 @@
+package: .
+import:
+- package: github.com/dgraph-io/badger
+  subpackages:
+  - badger
+- package: github.com/jackdanger/collectlinks
+- package: github.com/temoto/robotstxt-go
