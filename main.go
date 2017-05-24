@@ -35,11 +35,6 @@ var site string
 var site_uri *url.URL
 var robots *robotstxt.RobotsData
 
-type PageJson struct {
-	Url  string `json:"url"`
-	Html string `json:"html"`
-}
-
 func push(val string) {
 	key := []byte(fmt.Sprintf("q_%d", current_id))
 	kv.Set(key, []byte(val))
